@@ -395,3 +395,43 @@ textarea{min-height:110px;resize:vertical}
   }
   .menu.open{display:flex}
 }
+
+/* =========================
+   SELECT - MODO ESCURO
+========================= */
+:root select {
+  color: var(--text);
+  background: var(--chip);
+}
+
+/* opções no modo escuro */
+:root select option {
+  background: #0f1733;
+  color: #e7e9f5;
+}
+
+/* opção desabilitada */
+:root select option[disabled] {
+  color: #a8b0d6;
+}
+
+
+/* =========================
+   SELECT - MODO CLARO
+========================= */
+:root.light select {
+  color: #111;
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,.2);
+}
+
+/* opções no modo claro */
+:root.light select option {
+  background: #ffffff;
+  color: #111;
+}
+
+/* opção desabilitada */
+:root.light select option[disabled] {
+  color: #555;
+}
