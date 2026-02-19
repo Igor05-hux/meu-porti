@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio | Igor Henrique</title>
+  <meta name="description" content="Portfólio profissional de desenvolvimento: projetos, habilidades e contato." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Voltar ao início">
+        <span class="brand-dot"></span>
+        <span>Igor.dev</span>
+      </a>
+
+      <button class="icon-btn mobile-only" id="menuBtn" aria-label="Abrir menu">☰</button>
+x'
+      <nav class="menu" id="menu" aria-label="Menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#contato">Contato</a>
+        <button class="icon-btn" id="themeBtn" aria-label="Alternar tema">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="pill">Disponível para freelas • Sites • Sistemas • APIs</div>
+          <h1>Eu construo produtos digitais rápidos, bonitos e funcionais.</h1>
+          <p>
+            Desenvolvedor com foco em performance, experiência do usuário e código limpo.
+            Aqui você encontra meus projetos, stack e formas de contato.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projetos">Ver projetos</a>
+            <a class="btn ghost" href="#contato">Falar comigo</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric">
+              <strong>+10</strong>
+              <span>Projetos</span>
+            </div>
+            <div class="metric">
+              <strong>Full Stack</strong>
+              <span>Web/API</span>
+            </div>
+            <div class="metric">
+              <strong>Qualidade</strong>
+              <span>Testes/Boas práticas</span>
+            </div>
+          </div>
+
+          <div class="social">
+            <a class="chip-link" href="https://github.com/Igor05-hux" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip-link" href="https://www.linkedin.com/in/igor-silva-2a271422b/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="chip-link" href="#" id="whatsQuick" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <div class="avatar">
+              <span>👨‍💻</span>
+            </div>
+            <div>
+              <h3>Seu Nome</h3>
+              <p class="muted">Desenvolvedor • Java / Web</p>
+            </div>
+          </div>
+
+          <div class="hero-card-body">
+            <div class="kpi">
+              <span class="kpi-title">Stack principal</span>
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring</span>
+                <span class="tag">SQL</span>
+                <span class="tag">HTML/CSS/JS</span>
+              </div>
+            </div>
+
+            <div class="kpi">
+              <span class="kpi-title">Diferenciais</span>
+              <ul class="checklist">
+                <li>Arquitetura e organização de projeto</li>
+                <li>API REST + boas práticas</li>
+                <li>Layout responsivo e rápido</li>
+              </ul>
+            </div>
+
+            <a class="btn primary full" href="#contato">Solicitar orçamento</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-head">
+          <h2>Sobre</h2>
+          <p class="muted">Um resumo direto sobre você, sua experiência e objetivo.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="panel">
+            <h3>Quem sou</h3>
+            <p class="muted">
+              Sou desenvolvedor focado em entregar soluções consistentes: do layout ao backend.
+              Trabalho com APIs, banco de dados e interfaces responsivas.
+            </p>
+            <div class="tags">
+              <span class="tag">Clean Code</span>
+              <span class="tag">Testes</span>
+              <span class="tag">Performance</span>
+              <span class="tag">UX</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>O que eu entrego</h3>
+            <ul class="bullets muted">
+              <li>Sites profissionais (landing, institucional, portfólio)</li>
+              <li>Sistemas com login, CRUD e painel</li>
+              <li>APIs REST integrando serviços</li>
+              <li>Documentação + organização do projeto</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Tecnologias e ferramentas que uso no dia a dia.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <p class="muted">Java, Spring Boot, APIs REST, autenticação, testes.</p>
+            <div class="tags">
+              <span class="tag">Java</span><span class="tag">Spring</span><span class="tag">JWT</span><span class="tag">Junit</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p class="muted">HTML, CSS, JS, responsivo, componentes e UX.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">Vue/Angular</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Banco & DevOps</h3>
+            <p class="muted">SQL, modelagem, Git, deploy e automação.</p>
+            <div class="tags">
+              <span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">Git</span><span class="tag">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-head">
+            <h2>Projetos</h2>
+            <p class="muted">Alguns trabalhos que representam bem minha entrega.</p>
+          </div>
+
+          <div class="filters">
+            <button class="chip active" data-filter="todos" type="button">Todos</button>
+            <button class="chip" data-filter="web" type="button">Web</button>
+            <button class="chip" data-filter="api" type="button">API</button>
+            <button class="chip" data-filter="sistema" type="button">Sistema</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projeto 1 -->
+          <article class="project-card" data-tags="web sistema">
+            <div class="project-top">
+              <div>
+                <h3>Sistema de Documentos</h3>
+                <p class="muted">Upload, listagem, download e controle por API.</p>
+              </div>
+              <span class="badge">Sistema</span>
+            </div>
+            <div class="tags">
+              <span class="tag">Java</span><span class="tag">Spring</span><span class="tag">SQL</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn ghost small js-open" data-id="docs">Detalhes</button>
+              <a class="btn primary small" href="https://github.com/Igor05-hux" target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="project-card" data-tags="web">
+            <div class="project-top">
+              <div>
+                <h3>Landing Page</h3>
+                <p class="muted">Focada em conversão: CTA, formulário e layout moderno.</p>
+              </div>
+              <span class="badge">Web</span>
+            </div>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn ghost small js-open" data-id="landing">Detalhes</button>
+              <a class="btn primary small" href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="project-card" data-tags="api">
+            <div class="project-top">
+              <div>
+                <h3>API de Pagamentos</h3>
+                <p class="muted">Endpoints, validações, integração e logs.</p>
+              </div>
+              <span class="badge">API</span>
+            </div>
+            <div class="tags">
+              <span class="tag">REST</span><span class="tag">Spring</span><span class="tag">PostgreSQL</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn ghost small js-open" data-id="api">Detalhes</button>
+              <a class="btn primary small" href="https://github.com/Igor05-hux" target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section class="section alt" id="experiencia">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experiência</h2>
+          <p class="muted">Timeline resumida (edite com seus dados reais).</p>
+        </div>
+
+        <div class="timeline">
+          <div class="time-item">
+            <div class="time-dot"></div>
+            <div class="time-content">
+              <h3>Estágio / Dev</h3>
+              <p class="muted">Manutenção de sistemas, consumo de APIs, documentação e suporte.</p>
+              <span class="time-meta">2025 — Atual</span>
+            </div>
+          </div>
+
+          <div class="time-item">
+            <div class="time-dot"></div>
+            <div class="time-content">
+              <h3>Projetos pessoais e freelas</h3>
+              <p class="muted">Sites, landing pages e sistemas com backend.</p>
+              <span class="time-meta">2024 — 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contato</h2>
+          <p class="muted">Me envie uma mensagem e eu retorno rápido.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="panel">
+            <h3>Mensagem rápida (WhatsApp)</h3>
+            <form id="contactForm" class="form">
+              <label for="cName">Nome</label>
+              <input id="cName" required placeholder="Seu nome" />
+
+              <label for="cGoal">O que você precisa?</label>
+              <select id="cGoal" required>
+                <option value="" disabled selected>Selecione…</option>
+                <option>Site / Portfólio</option>
+                <option>Landing Page</option>
+                <option>Sistema / Painel</option>
+                <option>API / Integração</option>
+                <option>Outro</option>
+              </select>
+
+              <label for="cMsg">Detalhes</label>
+              <textarea id="cMsg" required placeholder="Me conte o que você quer fazer…"></textarea>
+
+              <button class="btn primary full" type="submit">Enviar no WhatsApp</button>
+              <small class="muted" id="formHint"></small>
+            </form>
+          </div>
+
+          <div class="panel">
+            <h3>Outros canais</h3>
+            <div class="contact-actions">
+              <a class="btn ghost full" href="https://github.com/SEUUSUARIO" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn ghost full" href="https://www.linkedin.com/in/igor-silva-2a271422b/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <button class="btn ghost full" id="copyEmail" type="button">Copiar email</button>
+            </div>
+
+            <div class="mini">
+              <p class="muted">Email: <span id="emailText">seuemail@exemplo.com</span></p>
+              <p class="muted">Cidade: BH/MG • Atendimento remoto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p class="muted">© <span id="year"></span> SeuNome.dev</p>
+        <a class="muted" href="#top">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- MODAL PROJETO -->
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Detalhes do projeto">
+      <div class="modal-head">
+        <div>
+          <h3 id="mTitle">Projeto</h3>
+          <p class="muted" id="mDesc">Descrição</p>
+        </div>
+        <button class="icon-btn" id="modalClose" aria-label="Fechar">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4>O que foi feito</h4>
+          <ul class="bullets muted" id="mBullets"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h4>Tecnologias</h4>
+          <div class="tags" id="mTags"></div>
+        </div>
+
+        <div class="modal-actions">
+          <a class="btn primary" id="mLink" href="#" target="_blank" rel="noreferrer">Ver projeto</a>
+          <button class="btn ghost" data-close="true" type="button">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
