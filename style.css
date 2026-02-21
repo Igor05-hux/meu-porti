@@ -435,3 +435,29 @@ textarea{min-height:110px;resize:vertical}
 :root.light select option[disabled] {
   color: #555;
 }
+
+:root select {
+  color: #ffffff; 
+}
+  :root.light select {
+    color: #111; 
+  }
+
+
+  :root select option {
+    background: #0f1733; 
+    color: #e7e9f5; 
+  }
+
+  :root select option[disabled] {
+    color: #a8b0d6; 
+  }
+
+  :root.light select option {
+    background: #ffffff; 
+    color: #111; 
+  }
+
+  :root.light select option[disabled] {
+    color: #555; 
+  }
