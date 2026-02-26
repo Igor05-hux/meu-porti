@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orça.dev | Orçamento Rápido</title>
+  <meta name="description" content="Monte uma estimativa e envie seu briefing no WhatsApp." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Voltar para o portfólio">
+        <span class="brand-dot"></span>
+        <span>Igor.dev</span>
+      </a>
+
+      <button class="icon-btn mobile-only" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+      <nav class="menu" id="menu" aria-label="Menu">
+        <a href="index.html">Portfólio</a>
+        <a href="orca.html" aria-current="page">Orça.dev</a>
+        <button class="icon-btn" id="themeBtn" aria-label="Alternar tema">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="orca" id="top">
+    <section class="orca-hero">
+      <div class="container">
+        <div class="pill">Orçamento rápido • Briefing pronto no WhatsApp</div>
+        <h1>Monte um orçamento em <span class="orca-grad">1 minuto</span>.</h1>
+        <p class="muted">Selecione o que você precisa e me envie automaticamente no WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="orca-grid">
+      <div class="container orca-grid-inner">
+        <section class="panel">
+          <h2>Gerador de orçamento</h2>
+          <p class="muted">Estimativa inicial — o valor final é confirmado após entender o escopo.</p>
+
+          <form id="quoteForm" class="form">
+            <label for="tipo">O que você quer?</label>
+            <select id="tipo" required>
+              <option value="" disabled selected>Selecione...</option>
+              <option value="landing">Landing Page (1 página)</option>
+              <option value="institucional">Site Institucional</option>
+              <option value="ecommerce">Loja (vitrine simples)</option>
+              <option value="sistema">Sistema / Painel</option>
+            </select>
+
+            <label for="paginas">Quantidade de páginas</label>
+            <select id="paginas" required>
+              <option value="1">1</option>
+              <option value="3">3</option>
+              <option value="5">5</option>
+              <option value="8">8</option>
+            </select>
+
+            <label for="prazo">Prazo</label>
+            <select id="prazo" required>
+              <option value="normal">Normal</option>
+              <option value="rapido">Rápido</option>
+              <option value="urgente">Urgente</option>
+            </select>
+
+            <label>Extras</label>
+            <div class="checks">
+              <label class="check"><input type="checkbox" value="seo" /> SEO básico</label>
+              <label class="check"><input type="checkbox" value="whats" /> Botão WhatsApp + formulário</label>
+              <label class="check"><input type="checkbox" value="blog" /> Blog / artigos</label>
+              <label class="check"><input type="checkbox" value="login" /> Login / área restrita</label>
+            </div>
+
+            <label for="obs">Observações</label>
+            <textarea id="obs" placeholder="Ex: já tenho logo, preciso de domínio, integrar pagamento..."></textarea>
+
+            <div class="result">
+              <div>
+                <span class="muted">Estimativa</span>
+                <strong id="valor">R$ 0</strong>
+              </div>
+              <small class="muted">* estimativa inicial</small>
+            </div>
+
+            <button class="btn primary full" type="submit">Enviar no WhatsApp</button>
+            <small class="muted" id="formError"></small>
+          </form>
+        </section>
+
+        <aside class="panel">
+          <h2>Como funciona</h2>
+          <ul class="bullets muted">
+            <li>Você escolhe as opções</li>
+            <li>Eu recebo o briefing pronto no WhatsApp</li>
+            <li>Confirmo valor e prazo final</li>
+          </ul>
+
+          <div style="height:12px"></div>
+
+          <a class="btn ghost full" href="index.html#projetos">Ver projetos no portfólio</a>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p class="muted">© <span id="year"></span> Igor.dev</p>
+        <a class="muted" href="#top">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

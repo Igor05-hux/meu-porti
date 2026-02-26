@@ -461,3 +461,44 @@ textarea{min-height:110px;resize:vertical}
   :root.light select option[disabled] {
     color: #555; 
   }
+
+  /* =========================
+   ORÇA.DEV (2ª página)
+========================= */
+.orca-hero { padding: 48px 0 20px; }
+.orca-grad{
+  background: linear-gradient(90deg, var(--primary2), var(--primary));
+  -webkit-background-clip:text; background-clip:text;
+  color: transparent;
+  font-weight: 900;
+}
+.orca-grid { padding: 20px 0 46px; }
+.orca-grid-inner{
+  display:grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 14px;
+}
+@media (max-width: 980px){
+  .orca-grid-inner{ grid-template-columns: 1fr; }
+}
+
+/* ===== Botão Hero ===== */
+.hero-actions{
+  margin-top:20px;
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.hero-actions .btn.primary{
+  background: linear-gradient(90deg, var(--primary2), var(--primary));
+  border: none;
+  font-weight: 800;
+  padding: 12px 18px;
+  transition: all .2s ease;
+}
+
+.hero-actions .btn.primary:hover{
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
