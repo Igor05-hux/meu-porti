@@ -17,14 +17,12 @@
       </a>
 
       <button class="icon-btn mobile-only" id="menuBtn" aria-label="Abrir menu">☰</button>
-x'
       <nav class="menu" id="menu" aria-label="Menu">
         <a href="#sobre">Sobre</a>
         <a href="#skills">Skills</a>
         <a href="#projetos">Projetos</a>
         <a href="#experiencia">Experiência</a>
         <a href="#contato">Contato</a>
-        <a href="orca.html">Orça.dev</a>
         <button class="icon-btn" id="themeBtn" aria-label="Alternar tema">🌙</button>
       </nav>
     </div>
@@ -41,15 +39,10 @@ x'
             Desenvolvedor com foco em performance, experiência do usuário e código limpo.
             Aqui você encontra meus projetos, stack e formas de contato.
           </p>
-          <div class="hero-actions">
-  <a href="orca.html" class="btn primary">
-    🚀 Solicitar orçamento
-  </a>
-</div>
 
           <div class="hero-actions">
             <a class="btn primary" href="#projetos">Ver projetos</a>
-            <a class="btn ghost" href="#contato">Falar comigo</a>
+            <a class="btn ghost" id="talkBtn" href="#" target="_blank" rel="noreferrer">Falar comigo</a>
           </div>
 
           <div class="hero-metrics">
@@ -80,18 +73,17 @@ x'
               <span>👨‍💻</span>
             </div>
             <div>
-              <h3>Igor Henrique</h3>
+              <h3>Seu Nome</h3>
               <p class="muted">Desenvolvedor • Java / Web</p>
             </div>
           </div>
 
-          <div class="hero-card-body">  
+          <div class="hero-card-body">
             <div class="kpi">
               <span class="kpi-title">Stack principal</span>
               <div class="tags">
-                <span class="tag">JAVA</span>
+                <span class="tag">Java</span>
                 <span class="tag">Spring</span>
-                <span class="tag">.LUA</span>
                 <span class="tag">SQL</span>
                 <span class="tag">HTML/CSS/JS</span>
               </div>
@@ -106,7 +98,7 @@ x'
               </ul>
             </div>
 
-            <a class="btn primary full" href="#contato">Solicitar orçamento</a>
+            <a class="btn primary full" href="orca.html">Solicitar orçamento</a>
           </div>
         </div>
       </div>
@@ -175,7 +167,7 @@ x'
 
           <div class="skill-card">
             <h3>Banco & DevOps</h3>
-            <p class="muted">SQL, modelagem, Git e automação.</p>
+            <p class="muted">SQL, modelagem, Git, deploy e automação.</p>
             <div class="tags">
               <span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">Git</span><span class="tag">CI/CD</span>
             </div>
@@ -190,9 +182,6 @@ x'
         <div class="row">
           <div class="section-head">
             <h2>Projetos</h2>
-            <a href="orca.html" class="btn ghost" style="margin-bottom:20px;">
-  💼                        Criar projeto comigo
-            </a>
             <p class="muted">Alguns trabalhos que representam bem minha entrega.</p>
           </div>
 
@@ -275,8 +264,8 @@ x'
             <div class="time-dot"></div>
             <div class="time-content">
               <h3>Estágio / Dev</h3>
-              <p class="muted">Manutenção de sistemas em .lua, banco de dados, documentação e suporte.</p>
-              <span class="time-meta">2026 — Atual</span>
+              <p class="muted">Manutenção de sistemas, consumo de APIs, documentação e suporte.</p>
+              <span class="time-meta">2025 — Atual</span>
             </div>
           </div>
 
@@ -284,7 +273,7 @@ x'
             <div class="time-dot"></div>
             <div class="time-content">
               <h3>Projetos pessoais e freelas</h3>
-              <p class="muted">Sites como: E-commerce, landing pages, Site institucional e sistemas com backend.</p>
+              <p class="muted">Sites, landing pages e sistemas com backend.</p>
               <span class="time-meta">2024 — 2025</span>
             </div>
           </div>
@@ -301,30 +290,6 @@ x'
         </div>
 
         <div class="contact-grid">
-          <div class="panel">
-            <h3>Mensagem rápida (WhatsApp)</h3>
-            <form id="contactForm" class="form">
-              <label for="cName">Nome</label>
-              <input id="cName" required placeholder="Seu nome" />
-
-              <label for="cGoal">O que você precisa?</label>
-              <select id="cGoal" required>
-                <option value="" disabled selected>Selecione…</option>
-                <option>Site / Portfólio</option>
-                <option>Landing Page</option>
-                <option>Sistema / Painel</option>
-                <option>API / Integração</option>
-                <option>Outro</option>
-              </select>
-
-              <label for="cMsg">Detalhes</label>
-              <textarea id="cMsg" required placeholder="Me conte o que você quer fazer…"></textarea>
-
-              <button class="btn primary full" type="submit">Enviar no WhatsApp</button>
-              <small class="muted" id="formHint"></small>
-            </form>
-          </div>
-
           <div class="panel">
             <h3>Outros canais</h3>
             <div class="contact-actions">
@@ -344,7 +309,7 @@ x'
 
     <footer class="footer">
       <div class="container footer-row">
-        <p class="muted">© <span id="year"></span> Igor.dev</p>
+        <p class="muted">© <span id="year"></span> SeuNome.dev</p>
         <a class="muted" href="#top">Voltar ao topo ↑</a>
       </div>
     </footer>
